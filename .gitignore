@@ -1,0 +1,82 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+*.egg
+*.whl
+
+# Virtual environments
+venv/
+ENV/
+env/
+.env/
+.venv/
+backend/.venv/
+backend/env/
+backend/venv/
+
+# Python env files
+.env
+
+# Pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# pyre
+.pyre/
+
+# VSCode
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Coverage
+htmlcov/
+.coverage
+
+# Local settings and secrets
+*.local
+secrets.json
+*.pem
+*.key
+
+# Node
+node_modules/
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Static / build artifacts
+staticfiles/
+
+# Ignore compiled assets and caches
+*.cache
