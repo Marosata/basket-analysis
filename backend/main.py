@@ -1,12 +1,13 @@
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 
-from app.routers import ingestion
+from app.routers import ingestion, analytics
 from app.services.data_fetcher import DataNotFoundError, UpstreamAPIError
 
 app = FastAPI(title="Basket Analysis API")
 
 app.include_router(ingestion.router, prefix="/api/v1")
+app.include_router(analytics.router, prefix="/api/v1/analytics")
 
 
 @app.exception_handler(DataNotFoundError)
